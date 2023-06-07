@@ -23,7 +23,7 @@ public class Laptor {
     
         @Override
         public String toString() {
-            return String.format("Название: %s \n объем оперативной памяти: %d Гб \n объем накопителя %d Гб \n ОС %s \n Цвет %s \n Диагональ %.1f \n", 
+            return String.format("Название ноутбука: %s \n объем оперативной памяти: %d Гб \n объем накопителя %d Гб \n ОС %s \n Цвет %s \n Диагональ %.1f \n", 
                         this.name, this.ram, this.storageCap, this.os, this.colour, this.diagonal);
         }
         @Override
